@@ -14,4 +14,4 @@ npm install
 ```
 npm run dev
 ```
-(Deployed)[https://otica-visao-nine.vercel.app/]
+[Deploy](https://otica-visao-nine.vercel.app/)
