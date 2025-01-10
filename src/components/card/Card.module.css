@@ -1,0 +1,26 @@
+.img {
+    width: 350px;
+    height: 130px;
+}
+
+.div{
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 20px 10px;
+    width: 400px;
+    box-shadow: 2px 2px 20px -4px #000000;
+}
+
+.div p{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px){
+    .div{
+        width: 350px;
+    }
+
+    .img{
+        width: 300px;
+    }
+}

@@ -1,0 +1,58 @@
+.container{
+    background-image: url('../../../public/capa.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.container_card{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+
+.card p{
+    color: white;
+    font-size: 22px;
+}
+
+.card h1{
+    color: white;
+    font-size: 48px;
+}
+
+@media screen and (min-width: 992px ) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+  
+@media only screen and (max-width: 767px) {
+    .card p{
+        color: white;
+        font-size: 20px;
+    }
+    
+    .card h1{
+        color: white;
+        font-size: 32px;
+    }
+
+    .card{
+        width: 90%;
+    }
+}

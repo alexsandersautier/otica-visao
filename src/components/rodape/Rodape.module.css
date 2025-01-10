@@ -1,0 +1,27 @@
+.container{
+    background-color: #000;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.paragraph{
+    color: #fff;
+    text-align: center;
+}
+
+.link{
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.link:hover{
+    background-color: aliceblue;
+    color: #000;
+}

@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #05031B;
+    color: #fff;
+}
+
+.title{
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.paragraph{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.container_card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
