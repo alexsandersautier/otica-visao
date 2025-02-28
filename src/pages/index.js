@@ -15,7 +15,7 @@ export default function Home() {
         <title>Óticas vida</title>
         <meta name="description" content="page created by dev alexsander sautier about react course" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/oculos.png" />
       </Head>
       <main className={styles.container}>
         <Topo/>
